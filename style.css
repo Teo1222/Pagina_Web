@@ -4,8 +4,11 @@
   padding: 20px;
   margin: 0;
 }
+a:hover{
+  color:  #979a9a  !important;
+}
 h2{
-  font-weight: bold;
+  font-weight: bold !important;
   color: white;
   text-align: center;
   padding: 15px;
