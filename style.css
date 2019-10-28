@@ -1,3 +1,35 @@
 .container {
   background-color: #343a40;
-};
+  border-radius: 25px;
+  padding: 20px;
+  margin: 0;
+}
+h2{
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+body{
+  background-color: #17202a !important;
+}
+table,td,th{
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+/*color for some table data*/
+#ihm{
+  background-color: #4a235a;
+}
+#dbd{
+  background-color:  #641e16 ;
+}
+#aw{
+  background-color:#145a32 ;
+}
+#rlan{
+  background-color: #784212  ;
+}
+#so{
+  background-color: #154360 ;
+}
