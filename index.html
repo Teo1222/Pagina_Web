@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pagina para administrar trabajos, horarios y tareas de escuela y universidad">
     <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
     <title>E-Tasks</title>
     <!--Jquery, bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,12 +28,10 @@
           <a class="nav-item nav-link active" href="#tasks">Tareas</a>
         </div>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-          <li class="nav-item avatar" style="background: none">
             <a class="nav-link p-0" href="#">
               <img src="images/Avatar.jpg" class="rounded-circle z-depth-0"
             alt="avatar image" height="45">
             </a>
-          </li>
         </ul>
       </div>
     </nav>
@@ -105,14 +104,24 @@
     <!--fin calendario google-->
     <br>
     <!--Lista de tares-->
-    <div class="container" id="tareas">
-      <h2>Tareas</h2>
-      <input type="text" id="input" placeholder="Ingresa tarea">
-      <span onclick="newElement()" class="newbtn">Añadir</span>
-      <ul id="tasks">
-      </ul>
+    <div class="container task" id="myDiv">
+      <h2>My to do list</h2>
+      <input type="text" id="ingreso" placeholder="Ingrese Tarea">
+      <span onclick="newElement()" class="botonanadir">Añadir</span>
+      <div>
+        <br><br>
+        <ul id="tareas">
+          <li>Comprar comida</li>
+          <li>Hacer pagina Web</li>
+        </ul>
+      </div>
+      <script src="main.js"></script>
     </div>
+
+
+
     <!--Fin lista de tareas-->
+
   </body>
 
 
